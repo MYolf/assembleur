@@ -1,0 +1,44 @@
+{
+    "program_compteur": "compte à rebours",
+    "instructions": [
+        {
+            "name" : "add",
+            "register" : "condition",
+            "value" : "5"
+        },
+        {
+            "name" : "add",
+            "register" : "storage",
+            "value" : 5
+        },
+        {
+            "name" : "write"
+        },
+        {
+            "name" : "add",
+            "register" : "condition",
+            "value" : -1
+        },
+        {
+            "name" : "add",
+            "register" : "storage",
+            "value" : -1
+        },
+        {
+            "name" : "write"
+        },
+        {
+            "name": "zjump",
+            "instruction_number": 8,
+            "value": 0
+        },
+        {
+            "name": "jump",
+            "instruction_number": 3
+        },
+        {
+            "name" : "exite"
+        }
+
+    ]
+}
