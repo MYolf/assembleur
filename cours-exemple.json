@@ -1,0 +1,23 @@
+{
+  "program_name": "Créer une variable",
+  "instructions": [
+    {
+      "name": "add",
+      "register": "cursor",
+      "value": 0
+    },
+    {
+      "name": "add",
+      "register": "storage",
+      "value": 0
+    },
+    {
+      "name":"add",
+      "register": "condition",
+      "value" : 5
+    },
+    {
+      "name": "write"
+    }
+  ]
+}
